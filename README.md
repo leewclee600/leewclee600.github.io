@@ -91,6 +91,7 @@ Also, better accurate severity detection could help improvement in treatment tri
 
 **Dicom Files**: A DICOM file is an image saved in the Digital Imaging and Communications in Medicine (DICOM) format.
 
+we can use `pydicom.dcmread()` to extract dicom data. 
 
 ### 
 
