@@ -103,6 +103,32 @@ Since a patient has 12 - 80+ CT scans, we can observe the "inhale".
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/34506100/91349638-96991b00-e7b3-11ea-89cd-8adf70e8684c.gif)
 
+### Explore csv file
 
-### 
+First preview train.csv and test.csv
+
+![head train and test data](https://user-images.githubusercontent.com/34506100/91361393-2fd12d00-e7c6-11ea-9208-87dc0b32e85e.png)
+
+Also, by checking the dataset using 
+
+`train.isnull().values.any()`
+
+`len(train["Patient"].unique())`
+
+We notice that there are **no missing values** and **176 unique partients**
+
+Most of the patients have 8-10 entries from frequency plot below 
+
+![num of entry pat](https://user-images.githubusercontent.com/34506100/91361818-1c729180-e7c7-11ea-8f30-bf49b746aeb2.png)
+
+### Patients detail 
+
+The **Ages** of the patients are between 50 and 90 years old. Most of them are between 60 and 70 years old.
+
+The **Gender** of the patents are mostly Males. 
+
+The **Smoking Status** of most patients are Ex-smokers. Less then 50% never smoked. Less then 10% still smoking. 
+
+
+![patient plot](https://user-images.githubusercontent.com/34506100/91362078-a3c00500-e7c7-11ea-8662-fe5ee03576f0.png)
 
