@@ -87,11 +87,21 @@ Also, better accurate severity detection could help improvement in treatment tri
 
 **sample_submission.csv** - demonstrates the submission format
 
+## Explore the data
+
 ### Understand DICOM file
 
 **Dicom Files**: A DICOM file is an image saved in the Digital Imaging and Communications in Medicine (DICOM) format.
 
-we can use `pydicom.dcmread()` to extract dicom data. 
+we can use `pydicom.dcmread()` to extract dicom data.
+
+Here is a sample DICOM data: 
+
+<img width="416" alt="sample_dicom" src="https://user-images.githubusercontent.com/34506100/91347619-a2cfa900-e7b0-11ea-9ed2-2791c8d092bd.png">
+
+Since a patient has 12 - 80+ CT scans, we can observe the "inhale". 
+
+
 
 ### 
 
