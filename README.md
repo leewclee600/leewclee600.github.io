@@ -101,6 +101,7 @@ Here is a sample DICOM data:
 
 Since a patient has 12 - 80+ CT scans, we can observe the "inhale". 
 
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/34506100/91349638-96991b00-e7b3-11ea-89cd-8adf70e8684c.gif)
 
 
 ### 
